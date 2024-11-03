@@ -27,7 +27,6 @@ serv_1.2.1/rtl/serv_mem_if.v    \
 serv_1.2.1/rtl/serv_decode.v    \
 serv_1.2.1/rtl/serv_alu.v
 
-
 ifneq ($(GATES),yes)
 
 # RTL simulation:
