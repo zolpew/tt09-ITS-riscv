@@ -9,11 +9,18 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+When the system boots up, it will start accessing the SPI bus to set up a connected SPI Flash memory in XIP mode and start executing instructions from there. The GPIO can be used to output data, e.g. as a bitbanged UART
+
 
 ## How to test
 
-Explain how to use your project
+The testbench contains a model of an SPI Flash. A program in Verilog Hex format can be preloaded into the Flash model.
+
+Underserved can easiest be run locally using FuseSoC.
+
+Install FuseSoC
+
+pip install fusesoc
 
 ## External hardware
 
