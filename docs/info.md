@@ -20,7 +20,10 @@ Underserved can easiest be run locally using FuseSoC.
 
 Install FuseSoC
 
+```Install FuseSoC
 pip install fusesoc
+
+```
 
 ## External hardware
 
